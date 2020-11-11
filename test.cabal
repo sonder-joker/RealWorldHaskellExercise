@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 8c25d94ecf54579c0f426381df5f5438283d55c16d840d14b3da825c6757d485
+-- hash: 4766f6a5f959776e6365b05e034a32a659d909d30f6faf5553f97833c3a2d853
 
 name:           test
 version:        0.1.0.0
@@ -27,12 +27,23 @@ source-repository head
 
 library
   exposed-modules:
+      Cheapter3.Eight
       Cheapter3.Five
       Cheapter3.Four
       Cheapter3.One
       Cheapter3.Seven
       Cheapter3.Six
       Cheapter3.Three
+      Cheapter4.BasicListOperation
+      Cheapter4.InfixFunction
+      Cheapter4.InteractWith
+      Cheapter4.SafeList
+      Cheapter4.SplitWith
+      Cheapter5.First.PutJSON
+      Cheapter5.First.SimpleJSON
+      Cheapter5.PrettifyJSON
+      Cheapter5.PrettyStub
+      Cheapter6.TypeClass
       Lib
   other-modules:
       Paths_test
